@@ -1,4 +1,4 @@
-#driver code for Telly's Missile Box. Contains active low push buttons for manual movement,
+#driver code for Project Watchdog. Contains active low push buttons for manual movement,
 #active high inputs from the ESP8266 (WiFi microcontroller) to control via buttons on a web page.
 #the DRV8825 library is used to control these Nema 17 stepper motors and is relatively straight-forward.
 #the lines that allow the RPi to control the neopixel LEDs are commented out and the arduino does this
