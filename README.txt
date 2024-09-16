@@ -1,4 +1,4 @@
-Telly's Missile Box
+Project Watchdog
 
 This project is a smaller representation of the ORETI Rapid Dragon project.
 
@@ -47,10 +47,8 @@ IS NOT TO BE CHANGED.
 
 ESP8266 Code - 4buttons_via_wifi.ino
 
-establishes WiFi server on the SXW_Staff WiFi. You'll need a device with access to the staff WiFi to view
-the page (Telly or Dwight can help with that) or you can simply change the two strings at the beginning of the
-code that correspond to the wifi address and password, and change it to a mobile hotspot for your phone,
-or just change it to the SWX_Guest WiFi and use that. You just have to change those two strings to change what
+establishes WiFi server on the specified WiFi. You can simply change the two strings at the beginning of the
+code that correspond to the wifi address and password, and change it. You just have to change those two strings to change what
 WiFi server you're connecting to.
 
 There's also a WiFi test code that is very similar to the 4buttons_via_wifi.ino but doesn't really correlate to
@@ -58,13 +56,12 @@ our application, and is just for testing the chip / server.
 
 -WiFi Microcontroller Info-
 
-You should know how to use Arduino and RPi. The NodeMCU ESP8266 is a WiFi Microcontroller that
-lets you flash code onto it, then it runs that code automatically when turned on (like an arduino).
-This code is specifically for web hosting capabilities. The pins on the ESP8266 correspond to values in the code.
-So when a button is pressed on the website, the voltage on that pin is changed. Use the arduino IDE to send code
-to the ESP8266. However, you'll need to change the specified board before uploading. The Arduino IDE is not natively
-meant to upload to ESP8266s, so you can open the arduino IDE and go to File>Preferences and see "Additional Boards
-Manager URLs:" Then paste this into that field:
+The NodeMCU ESP8266 is a WiFi Microcontroller that lets you flash code onto it, then it runs that code automatically
+when turned on (like an arduino). This code is specifically for web hosting capabilities. The pins on the ESP8266
+correspond to values in the code. So when a button is pressed on the website, the voltage on that pin is changed. 
+Use the arduino IDE to send code to the ESP8266. However, you'll need to change the specified board before uploading.
+The Arduino IDE is not natively meant to upload to ESP8266s, so you can open the arduino IDE and go to File>Preferences
+and see "Additional Boards Manager URLs:" Then paste this into that field:
 
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
