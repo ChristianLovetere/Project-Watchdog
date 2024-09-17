@@ -1,6 +1,5 @@
 Project Watchdog
 
-![What is this](myimage.png)
 ![What is this](watchdog.jpg)
 
 
