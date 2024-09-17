@@ -1,5 +1,9 @@
 Project Watchdog
 
+
+![What is this](watchdog.png)
+
+
 This project is a smaller representation of the ORETI Rapid Dragon project.
 
 The project uses two Nema 17 stepper motors, one for vertical rotation and one for horizontal rotation
