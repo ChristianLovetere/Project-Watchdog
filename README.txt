@@ -1,7 +1,7 @@
 Project Watchdog
 
 
-![What is this](watchdog.png)
+![What is this](watchdog.jpg)
 
 
 This project is a smaller representation of the ORETI Rapid Dragon project.
