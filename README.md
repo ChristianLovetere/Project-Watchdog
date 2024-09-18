@@ -3,7 +3,7 @@ Project Watchdog
 ![What is this](watchdog.jpg)
 
 
-This project is a smaller representation of the ORETI Rapid Dragon project.
+This project is a smaller representation of the SOF Rapid Dragon.
 
 The project uses two Nema 17 stepper motors, one for vertical rotation and one for horizontal rotation
 There is a Raspberry Pi 3 as the main driver, an arduino MEGA for controlling the neopixel LEDS,
